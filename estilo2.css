@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(to bottom, #27446e, #705197);
+    color: #d4a9f8;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 200px;
+  }
+  
+  .header h1 {
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .menu {
+    width: 15%;
+  } 
+ 
+  
+  #listamenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #listamenu li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  #listamenu li a {
+    color: #eaeee8;
+    text-decoration: none;
+  }
+  
+  #listamenu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .centro {
+    width: 50%;
+  }
+  
+  .centro h2 {
+    font-size: 15px;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  
+  .centro p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .centro a {
+    color: #7651cc;
+    text-decoration: underline;
+  }
+  
+  .derecha {
+    width: 20%;
+    background-color: #807c7c;
+    padding: 20px;
+  }
+  
+  .derecha h3 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  
+  .derecha p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fotter {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #9c9797;
+  }

@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #4e1414;
+    background-color: #360c0c;
+  }
+  
+
+  .header {
+    background-color: #eebfbf;
+    padding: 35px;
+    text-align: center;
+  }
+  
+  .header h1 {
+   border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+  .menu {
+    position: relative;
+    background-color: #9fe1f55e;
+    padding: 40px;
+    overflow: auto;
+  }
+
+  #listamenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #listamenu li {
+    margin: 10px 0;
+  }
+  
+  #listamenu li a {
+    color: #575757;
+    text-decoration: none;
+  }
+  
+  #listamenu li a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  a{text-decoration: none;
+
+  }
+
+  .main {
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    background-color: #c04242;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .centro {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .centro h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .centro a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .centro a:hover {
+    text-decoration: underline;
+  }
+  
+  .centro h3 {
+    padding: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .derecha {
+    min-width: 200px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-left: 20px;
+    }
+  
+  .derecha p {
+    font-size: 15px;
+  }
+  
+  .fotter {
+    background-color: #383838;
+    color: #0c0000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+ 
